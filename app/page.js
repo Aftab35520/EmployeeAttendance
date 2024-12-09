@@ -1,10 +1,10 @@
-
-
-import Admin from "./components/Admin";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 export default function Home() {
-
+  
   return (
-    <Admin/>
+     <div className="p-3">
+      <Dashboard/>
+     </div>
   );
 }
