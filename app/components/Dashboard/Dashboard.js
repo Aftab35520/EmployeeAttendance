@@ -34,7 +34,7 @@ export default function Dashboard() {
           <p>EmployeeId</p>
           <p>Desination</p>
         </div>
-      {Api.map((e) => (
+      {Api?.map((e) => (
         <div className="grid grid-cols-4 border p-3 m-2">
           <p>{e.FullName}</p>
           <p>{e._id}</p>

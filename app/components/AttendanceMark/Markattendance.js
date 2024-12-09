@@ -32,8 +32,8 @@ export default function Markattendance() {
         <p>Address</p>
         <p>Mark Attendance</p>
       </div>
-      {data.map((data,i) => (
-        <AttendanceLayout key={i} index={i+1} name={data.FullName} father={data.FatherName} email={data.Email} address={data.Address} id={data._id} attandance={data.Attandance[data.Attandance.length-1]}/>
+      {data?.map((data,i) => (
+        <AttendanceLayout key={i} index={i+1} name={data.FullName} father={data.FatherName} email={data.Email} address={data.Address} id={data._id} attandance={data.Attandance[data?.Attandance.length-1]}/>
       ))}
     </div>
   );
