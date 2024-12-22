@@ -1,1 +1,1 @@
-export const url="https://employee-attendance-xi.vercel.app/markattendance/"
+export const url="https://employee-attendance-xi.vercel.app/"
